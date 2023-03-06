@@ -133,7 +133,8 @@
 .comofunciona__sequencia{
     max-width: 900px;
     margin: auto;
-    background-color: aquamarine;
+    margin-top: 3%;
+    margin-bottom: 7%;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
@@ -143,22 +144,19 @@
      " passo3 . "
      " . passo4 "
      ;
+     justify-content: space-between;
 }
 .comofunciona__passo1{
     grid-area: passo1;
-    background-color: gray;
 }
 .comofunciona__passo2{
     grid-area: passo2;
-    background-color: gray;
 }
 .comofunciona__passo3{
     grid-area: passo3;
-    background-color: gray;
 }
 .comofunciona__passo4{
     grid-area: passo4;
-    background-color: gray;
 }
 .sequencia__passos{
     width:350px;
@@ -190,4 +188,29 @@
 .passos__sequencia__descricao{
     font-family: Helvetica, sans-serif;
     font-size: 0.9rem;
+}
+#btnorcamento__comofunciona{
+    display:block;
+    margin: auto;
+    padding: 3px 12px;
+    font-family: helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #ff3800;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #ff3800;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.containergeral__nossahistoria{
+    background-color: aqua;
+}
+.nossahistoria__img{
+    max-width: 600px;
+}
+.nossahistoria__descricao{
+    width: 550px;
+    height: 300px;
+    background-color: #ffffff;
 }
